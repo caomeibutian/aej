@@ -5,7 +5,7 @@ warnings.filterwarnings('ignore')
 from ultralytics import YOLO
 
 if __name__ == '__main__':
-    model = YOLO('ultralytics/cfg/models/11/yolo11-our.yaml')
+    model = YOLO('ultralytics/cfg/models/11/yolo11s-our.yaml')
     # model.load('yolo11n.pt') # loading pretrain weights
     #model.train(data='C:/Users/Win/Desktop/yolo11-main/DUT-UAV/data.yaml',
     #model.train(data='C:/Users/Win/Desktop/yolo11-main/bird_uav/data.yaml',
